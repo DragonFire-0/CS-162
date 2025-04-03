@@ -30,8 +30,6 @@ Welcome!
 This program will help you manage your activities.
 Pick an option from below:
 (a)Add a new activity
-5
-
 (b)List activities by name
 (c)List activities by location
 (d)List activities by Type
@@ -70,7 +68,6 @@ d
 
 Enter Type number(0-Athletics, 1-Food, 2-Arts, 3-Games, and
 4-Others): 0
-6
 Skiing;Mt Hood Meadows;Difficult;6;Athletics
 Snowboarding;Mt Hood Meadows;Not for Faint of heart;8;Athletics
 

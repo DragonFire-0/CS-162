@@ -6,31 +6,19 @@
 // Sources: 
 //*****************************************************************************
 
-#include <iostream>
-#include main.h
+#include "main.h"
+#include "activity.cpp"
 
-using namespace std;
+
+
 
 int main() {
   cout << "Welcome!" << endl 
   << "This program will help you manage your activities" << endl;
 
-//Main choice variable
-char choiceChar = 'a';
-
 //While not wanting to quit
-while (choiceChar != 'q'){
-  cout << "Pick an option from below:" << endl
-  << "(a)Add a new activity" << endl
-  << "(b)List activities by name" << endl
-  << "(c)List activities by location" << endl
-  << "(d)List activities by Type" << endl
-  << "(e)Remove an activity" << endl
-  << "(f)Search by activity name" << endl
-  << "(q)Quit" << endl;
-
-  cin >> choiceChar;
-
-}
+//while (choiceChar != 'q') {
+    char test = Activity.mainOptionPick();
+//}
   return 0;
 }
